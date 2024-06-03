@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="logo"><img src="logo.png">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">Best of NCS - No Copyright Sounds
+        <div class="music musicone">
+            <img src="m1.png">
+            <span class="songName">Cornfield Chase</span>
+            <span class="musicinfo"><span class="musictime">03:07</span> <i id="0" class="fa-solid  songPlay fa-play"></i> </span>
+        </div>
+        <div class="music musictwo">
+            <img src="m2.png">
+            <span class="songName">Capital Letters</span>
+            <span class="musicinfo"><span class="musictime">03:07</span> <i id="1" class="fa-solid  songPlay fa-play"></i> </span>
+        </div>
+        <div class="music musictwo">
+            <img src="m3.png">
+            <span class="songName">Heartless</span>
+            <span class="musicinfo"><span class="musictime">03:07</span> <i id="2" class="fa-solid  songPlay fa-play"></i> </span>
+        </div>
+        <div class="music musictwo">
+            <img src="m4.png">
+            <span class="songName">4K</span>
+            <span class="musicinfo"><span class="musictime">03:07</span> <i id="3" class="fa-solid  songPlay fa-play"></i> </span>
+        </div>
+        <div class="music musictwo">
+            <img src="m5.png">
+            <span class="songName">FE!N</span>
+            <span class="musicinfo"><span class="musictime">03:07</span> <i id="4" class="fa-solid songPlay fa-play"></i> </span>
+        </div>
+        <div class="music musictwo">
+            <img src="m6.png">
+            <span class="songName">Feather</span>
+            <span class="musicinfo"><span class="musictime">03:07</span> <i id="5" class="fa-solid songPlay  fa-play"></i> </span>
+        </div>
+        <div class="music musictwo">
+            <img src="m7.png">
+            <span class="songName">After Dark</span>
+            <span class="musicinfo"><span class="musictime">03:07</span> <i id="6" class="fa-solid songPlay  fa-play"></i> </span>
+        </div>
+    </div>
+    <div class="audio">
+        <input type="range" name="range" id="range" min="0" value="0" max="100">
+         <div class="play">
+            <i class="fa-solid fa-backward" id="previous"></i>
+            <i class="fa-solid fa-play" id="play"></i>
+            <i class="fa-solid fa-forward" id="next"></i>
+         
+            <div class="songinfo">
+               <img src="playing.gif" width="50px" id="gif"> <span class="mainName"></span> 
+            </div>
+        </div>
+    </div>
+     
+    <script src="script.js"></script>
+</body>
+</html>

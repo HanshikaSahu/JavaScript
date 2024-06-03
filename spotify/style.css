@@ -1,0 +1,98 @@
+nav{
+    height: 60px;
+    background-color: black;
+    padding-top: 5px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding-left: 10px;
+}
+nav li{
+    color: white;
+    list-style: none;
+    padding-left: 20px;
+}
+nav li img{
+    width: 40px;
+}
+.logo{
+    padding-right: 40px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.container{
+    height: 500px;
+    font-size: 1.3rem;
+    background-image: url("bg.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 30px;
+    color: white;
+    background-color: black;   
+}
+.audio{
+    background-color: black;
+    color: white;
+    display: sticky;
+    bottom: 0;
+    padding: 15px;
+    min-height: 90px;
+}
+#range{
+    width: 90%;
+    margin-left: 50px;
+}
+.play{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.play i{
+    margin-left: 40px;
+}
+.musicone{
+    margin-top: 30px;
+}
+.musictwo{
+    margin-top: 5px;
+}
+.music{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: black;
+    height: 50px;
+    width: 290px;
+    font-size: 1rem;
+    border-radius: 20px;
+    padding: 5px;
+}
+.music img{
+    width: 45px;
+    border-radius: 50%;
+}
+.music span{
+    margin-left: 20px;
+}
+.songinfo{
+    position: absolute;
+    left: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 10px;
+    margin-top: 5px;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+ 
